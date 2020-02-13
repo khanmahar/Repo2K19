@@ -10,11 +10,24 @@ public class Calculator {
 		num1=scanner.nextInt();
 		System.out.println("Enter an other number");
 		num2=scanner.nextInt();
-		System.out.println("Addition is "+(num1+num2));
-		System.out.println("Subtraction is "+(num1-num2));
-		System.out.println("Multiplication is "+(num1*num2));
-		System.out.println("Division is "+(num1/num2));
+		System.out.println("Addition is "+add(num1,num2);
+		System.out.println("Subtraction is "+subtract(num1,num2);
+		System.out.println("Multiplication is "+multiply(num1,num2);
+		System.out.println("Division is "+divide(num1,num2));
 
+	}
+	
+	int add(int a,int b){
+		return a+b
+	}
+	int subtract(int a,int b){
+		return a-b
+	}
+	int multiply(int a,int b){
+		return a*b
+	}
+	int divide(int a,int b){
+		return a/b
 	}
 
 }

@@ -1,5 +1,25 @@
-import java.util.Scanner;
 
+public interface Operations {
+	
+	static double sum (double firstValue, double secondValue){
+		
+		return firstValue+secondValue;
+	}
+	
+	static double sub (double firstValue, double secondValue){
+		
+		return firstValue-secondValue;
+	}
+	static double multiply (double firstValue, double secondValue){
+		
+		return firstValue*secondValue;
+	}
+	static double division (double firstValue, double secondValue){
+		
+		return firstValue/secondValue;
+	}
+
+}
 public class CalculatorClass implements Operations{
 
 	public static void main(String[] args) {
